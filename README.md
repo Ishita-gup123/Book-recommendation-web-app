@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Book Recommendation System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A book recommendation system is a type of recommendation system where we have to recommend similar books to the reader based on his interest.Book Reading is a huge hobby for people all across the globe. There are three basics needs that are mandatory for customer delight.
 
-## Available Scripts
+1. Get recommendation based on user personal historical data
+2. Add to point 1, the feedback/ratings of the general set of users to get recommendations
+3. Some Intelligence to find the recommendations even if spelling mistakes are there or full name not being remembered when trying to search Book Recommendation System is taking care of all these isolated systems that we find and put across the smart solution for getting the recommendations
 
-In the project directory, you can run:
+## Why this Application?
 
-### `npm start`
+1. Users can use book recommendation systems to search and select books from a number of options available on the web or elsewhere electronic sources. 
+2. User will get a little bit selection of products that fit the description, given a large group of objects and a description of the user needs.
+3. The proposed recommendation system will provide user's ability to view and search the publications.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Install Node JS
+Refer to https://nodejs.org/en/ to install nodejs
 
-### `npm test`
+### Install create-react-app
+Install create-react-app npm package globally. This will help to easily run the project and also build the source files easily. Use the following command to install create-react-app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install -g create-react-app
+```
+## Live Application URL
 
-### `npm run build`
+The Application is deployed in http://book-recommendation-web-app.vercel.app/
+Click on the link to see the application
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Cloning and Running the Application in local
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the project into local
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Install all the npm packages. Go into the project folder and type the following command to install all npm packages
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+In order to run the application Type the following command
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The Application Runs on **localhost:3000**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
